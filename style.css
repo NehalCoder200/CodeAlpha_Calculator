@@ -23,17 +23,19 @@ body {
 }
 
 .calcuator input {
-    width: 320px;
+    width: 345px;
+    border-radius: 10px;
+    margin-bottom: 10px;
     border: none;
     padding: 24px;
-    background-color: transparent;
+    background-color: #1f2937;
     color: white;
     text-align: end;
     font-size: 40px;
     cursor: pointer;
 }
 
-.calcuator input::placeholder{
+.calcuator input::placeholder {
     color: white;
 }
 
@@ -42,9 +44,17 @@ div button {
     width: 65px;
     height: 65px;
     margin: 10px;
-    border-radius: 50%;
+    border-radius: 25%;
     color: white;
     background-color: transparent;
     font-size: 20px;
-box-shadow: rgba(255, 255,255, 0.1) -5px -5px 12px
+    box-shadow: rgba(255, 255, 255, 0.1) -5px -5px 12px
+}
+
+.operatorSign{
+    background-color: rgba(0, 255, 255, 0.835);
+}
+
+.operator{
+    background-color: orange;
 }

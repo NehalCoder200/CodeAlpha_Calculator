@@ -58,3 +58,43 @@ div button {
 .operator{
     background-color: orange;
 }
+
+
+
+@media screen and (min-width:200px) and (max-width:575px) {
+
+    .calcuator {
+        border: 1px solid #717377;
+        padding: 15px 12px;
+        border-radius: 16px;
+        box-shadow: rgba(113, 115, 119, 0.5) 0px 5px 15px;
+        background-color: #111827;
+        /* background-color: red; */
+    }
+
+    .calcuator input {
+        width: 250px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        border: none;
+        padding: 24px;
+        background-color: #1f2937;
+        color: white;
+        text-align: end;
+        font-size: 40px;
+        cursor: pointer;
+    }
+
+    div button {
+        border: 0;
+        width: 45px;
+        height: 45px;
+        margin: 8px;
+        border-radius: 25%;
+        color: white;
+        background-color: transparent;
+        font-size: 16px;
+        box-shadow: rgba(255, 255, 255, 0.1) -5px -5px 12px
+    }
+
+}

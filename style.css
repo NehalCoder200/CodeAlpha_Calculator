@@ -14,7 +14,7 @@ body {
     background-color: #1f2937;
 }
 
-.calcuator {
+.calculator {
     border: 1px solid #717377;
     padding: 20px;
     border-radius: 16px;
@@ -22,7 +22,7 @@ body {
     background-color: #111827;
 }
 
-.calcuator input {
+.calculator input {
     width: 345px;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -35,7 +35,7 @@ body {
     cursor: pointer;
 }
 
-.calcuator input::placeholder {
+.calculator input::placeholder {
     color: white;
 }
 
@@ -63,7 +63,7 @@ div button {
 
 @media screen and (min-width:200px) and (max-width:575px) {
 
-    .calcuator {
+    .calculator {
         border: 1px solid #717377;
         padding: 15px 12px;
         border-radius: 16px;
@@ -72,7 +72,7 @@ div button {
         /* background-color: red; */
     }
 
-    .calcuator input {
+    .calculator input {
         width: 250px;
         border-radius: 10px;
         margin-bottom: 10px;
